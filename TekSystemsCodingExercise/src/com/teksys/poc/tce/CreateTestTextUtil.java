@@ -1,0 +1,117 @@
+package com.teksys.poc.tce;
+
+import java.util.HashMap;
+import java.util.Map;
+
+public class CreateTestTextUtil {
+private static Map<Integer,String> StringMap = new HashMap<Integer,String>();
+private static CreateTestTextUtil SingleTone = new CreateTestTextUtil();
+private CreateTestTextUtil(){
+	StringMap.put(0, "Zero");
+	StringMap.put(1, "One");
+	StringMap.put(2, "Two");
+	StringMap.put(3, "Three");
+	StringMap.put(4, "Four");
+	StringMap.put(5, "Five");
+	StringMap.put(6, "Six");
+	StringMap.put(7, "Seven");
+	StringMap.put(8, "Eight");
+	StringMap.put(9, "Nine");
+	StringMap.put(10, "Ten");
+	StringMap.put(11, "Eleven");
+	StringMap.put(12, "Twelve");
+	StringMap.put(13, "Thirteen");
+	StringMap.put(14, "Fourteen");
+	StringMap.put(15, "Fifteen");
+	StringMap.put(16, "Sixteen");
+	StringMap.put(17, "Seventeen");
+	StringMap.put(18, "Eighteen");
+	StringMap.put(19, "Nineteen");
+	StringMap.put(20, "Twenty");
+	StringMap.put(21, "Twenty One");
+	StringMap.put(22, "Twenty Two");
+	StringMap.put(23, "Twenty Three");
+	StringMap.put(24, "Twenty Four");
+	StringMap.put(25, "Twenty Five");
+	StringMap.put(26, "Twenty Six");
+	StringMap.put(27, "Twenty Seven");
+	StringMap.put(28, "Twenty Eight");
+	StringMap.put(29, "Twenty Nine");
+	StringMap.put(30, "Thirty");
+	StringMap.put(31, "Thirty One");
+	StringMap.put(32, "Thirty Two");
+	StringMap.put(33, "Thirty Three");
+	StringMap.put(34, "Thirty Four");
+	StringMap.put(35, "Thirty Five");
+	StringMap.put(36, "Thirty Six");
+	StringMap.put(37, "Thirty Seven");
+	StringMap.put(38, "Thirty Eight");
+	StringMap.put(39, "Thirty Nine");
+	StringMap.put(40, "Forty");
+	StringMap.put(41, "Forty One");
+	StringMap.put(42, "Forty Two");
+	StringMap.put(43, "Forty Three");
+	StringMap.put(44, "Forty Four");
+	StringMap.put(45, "Forty Five");
+	StringMap.put(46, "Forty Six");
+	StringMap.put(47, "Forty Seven");
+	StringMap.put(48, "Forty Eight");
+	StringMap.put(49, "Forty Nine");
+	StringMap.put(50, "Fifty");
+	StringMap.put(51, "Fifty One");
+	StringMap.put(52, "Fifty Two");
+	StringMap.put(53, "Fifty Three");
+	StringMap.put(54, "Fifty Four");
+	StringMap.put(55, "Fifty Five");
+	StringMap.put(56, "Fifty Six");
+	StringMap.put(57, "Fifty Seven");
+	StringMap.put(58, "Fifty Eight");
+	StringMap.put(59, "Fifty Nine");
+	StringMap.put(60, "Sixty");
+	StringMap.put(61, "Sixty One");
+	StringMap.put(62, "Sixty Two");
+	StringMap.put(63, "Sixty Three");
+	StringMap.put(64, "Sixty Four");
+	StringMap.put(65, "Sixty Five");
+	StringMap.put(66, "Sixty Six");
+	StringMap.put(67, "Sixty Seven");
+	StringMap.put(68, "Sixty Eight");
+	StringMap.put(69, "Sixty Nine");
+	StringMap.put(70, "Seventy");
+	StringMap.put(71, "Seventy One");
+	StringMap.put(72, "Seventy Two");
+	StringMap.put(73, "Seventy Three");
+	StringMap.put(74, "Seventy Four");
+	StringMap.put(75, "Seventy Five");
+	StringMap.put(76, "Seventy Six");
+	StringMap.put(77, "Seventy Seven");
+	StringMap.put(78, "Seventy Eight");
+	StringMap.put(79, "Seventy Nine");
+	StringMap.put(80, "Eighty");
+	StringMap.put(81, "Eighty One");
+	StringMap.put(82, "Eighty Two");
+	StringMap.put(83, "Eighty Three");
+	StringMap.put(84, "Eighty Four");
+	StringMap.put(85, "Eighty Five");
+	StringMap.put(86, "Eighty Six");
+	StringMap.put(87, "Eighty Seven");
+	StringMap.put(88, "Eighty Eight");
+	StringMap.put(89, "Eighty Nine");
+	StringMap.put(90, "Ninety");
+	StringMap.put(91, "Ninety One");
+	StringMap.put(92, "Ninety Two");
+	StringMap.put(93, "Ninety Three");
+	StringMap.put(94, "Ninety Four");
+	StringMap.put(95, "Ninety Five");
+	StringMap.put(96, "Ninety Six");
+	StringMap.put(97, "Ninety Seven");
+	StringMap.put(98, "Ninety Eight");
+	StringMap.put(99, "Ninety Nine");
+}
+public static CreateTestTextUtil singleton(){
+	return SingleTone;
+}
+public String getStringForInt(Integer pInt){
+	return StringMap.get(pInt);
+}
+}
